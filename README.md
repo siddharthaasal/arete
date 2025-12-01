@@ -87,7 +87,7 @@ We welcome contributions to the exercise library! To add new exercises or improv
 1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of the repository.
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/siddharthaasal/arete.git
+   git clone https://github.com/YOUR_USERNAME/arete.git
    cd arete
    ```
 3. **Create a Branch**:
