@@ -79,3 +79,26 @@ To add or modify exercises without a database connection:
    }
    ```
 3. Save the file. The application will hot-reload with the new data.
+
+## Contributing
+
+We welcome contributions to the exercise library! To add new exercises or improve existing ones, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of the repository.
+2. **Clone Your Fork**:
+   ```bash
+   git clone https://github.com/siddharthaasal/arete.git
+   cd arete
+   ```
+3. **Create a Branch**:
+   ```bash
+   git checkout -b feat/add-new-exercise
+   ```
+4. **Make Changes**: Add your exercise to `app/data/exercises.json`.
+5. **Commit and Push**:
+   ```bash
+   git add .
+   git commit -m "feat: add [Exercise Name]"
+   git push origin feat/add-new-exercise
+   ```
+6. **Open a Pull Request**: Go to the original `arete` repository and click "New Pull Request". Select your branch to submit your changes for review.
