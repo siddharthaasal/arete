@@ -1,37 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arete
+
+Arete is a comprehensive workout tracking application designed to help users create, track, and analyze their workouts. It currently features a curated, high-quality exercise library with detailed cues, precautions, and muscle group targeting.
+
+## Tech Stack
+
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Data Storage**: JSON (Local file-based for now, migrating to DB later)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to replicate the environment and run the app locally.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js**: Version 18 or higher.
+- **Package Manager**: `pnpm` is recommended (but `npm` or `yarn` work too).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**
 
-## Learn More
+   ```bash
+   git clone https://github.com/siddharthaasal/arete.git
+   cd arete
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the development server**
 
-## Deploy on Vercel
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **View the app**
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# arete
+## Project Structure
+
+The project follows a standard Next.js App Router structure with a few custom directories for data management:
+
+- **`app/data/exercises.json`**:
+  Contains the seed data for the exercise library. This is currently the source of truth for the application's content.
+- **`app/types/exercise.ts`**:
+  Contains TypeScript interfaces defining the data model (e.g., `Exercise`, `MuscleGroup`, `Equipment`).
+
+- **`app/page.tsx`**:
+  The main entry point that fetches data from the JSON file and renders the exercise grid.
+
+## How to Add Exercises
+
+To add or modify exercises without a database connection:
+
+1. Open `app/data/exercises.json`.
+2. Add a new exercise object to the array. Ensure it matches the `Exercise` type:
+   ```json
+   {
+     "id": "unique-id",
+     "name": "Exercise Name",
+     "equipment": "barbell",
+     "category": "push",
+     "muscles": {
+       "primary": ["chest"],
+       "secondary": ["triceps"]
+     },
+     "precautions": ["Safety tip 1"],
+     "cues": ["Form cue 1"]
+   }
+   ```
+3. Save the file. The application will hot-reload with the new data.
