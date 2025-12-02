@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { Exercise, ExerciseCategory, MuscleGroup } from "./types/exercise";
 import exercisesData from "./data/exercises.json";
 import { ExerciseModal } from "./components/ExerciseModal";
+import { PronounceMyName } from "./components/PronounceMyName";
 
 const exercises = exercisesData as Exercise[];
 
@@ -46,9 +47,12 @@ export default function Home() {
         <header className="mb-8 flex flex-col gap-6 border-b border-storm/20 pb-6">
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
-              <h1 className="text-3xl font-bold tracking-tight text-aegean dark:text-marble">
-                Arete
-              </h1>
+              <div className="flex items-center gap-2">
+                <h1 className="text-3xl font-bold tracking-tight text-aegean dark:text-marble">
+                  arête
+                </h1>
+                <PronounceMyName namePronunciationUrl="/sounds/arete.mp3" />
+              </div>
               <p className="text-sm text-storm dark:text-storm/80 mt-1 font-medium">
                 {filteredExercises.length} {filteredExercises.length === 1 ? 'exercise' : 'exercises'} in library
               </p>
