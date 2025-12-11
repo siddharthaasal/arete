@@ -5,6 +5,8 @@ import { Exercise, ExerciseCategory, MuscleGroup } from "./types/exercise";
 import exercisesData from "./data/exercises.json";
 import { ExerciseModal } from "./components/ExerciseModal";
 import { PronounceMyName } from "./components/PronounceMyName";
+import Link from "next/link";
+import { PlusIcon } from "lucide-react";
 
 const exercises = exercisesData as Exercise[];
 
@@ -57,6 +59,13 @@ export default function Home() {
                 {filteredExercises.length} {filteredExercises.length === 1 ? 'exercise' : 'exercises'} in library
               </p>
             </div>
+            <Link 
+              href="/builder"
+              className="flex items-center gap-2 px-4 py-2 bg-aegean text-white rounded-lg hover:bg-aegean/90 transition-colors font-medium shadow-lg shadow-aegean/20 text-sm"
+            >
+              <PlusIcon className="size-4" />
+              Create Program
+            </Link>
           </div>
 
           {/* Filters */}

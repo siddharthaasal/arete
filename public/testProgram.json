@@ -1,0 +1,86 @@
+{
+    "id": "0a8a5568-6e52-47cd-aeb1-ab37e524e536",
+    "name": "New Program",
+    "description": "Test desc",
+    "workouts": [
+        {
+            "id": "c8b88ec7-2a15-4ac3-af2c-a890990f8734",
+            "name": "Day 1",
+            "exercises": [
+                {
+                    "id": "cf77cb0d-4eed-4759-9c60-6bedcdc46d49",
+                    "exerciseId": "bench-press-barbell",
+                    "role": "main",
+                    "sets": 3,
+                    "type": "reps",
+                    "reps": {
+                        "min": 8,
+                        "max": 12
+                    },
+                    "exercise": {
+                        "id": "bench-press-barbell",
+                        "name": "Barbell Bench Press",
+                        "equipment": "barbell",
+                        "videoUrl": "https://www.youtube.com/watch?v=rT7DgCr-3pg",
+                        "muscles": {
+                            "primary": [
+                                "chest"
+                            ],
+                            "secondary": [
+                                "triceps",
+                                "shoulders"
+                            ]
+                        },
+                        "precautions": [
+                            "Ensure you have a spotter or safety bars set correctly.",
+                            "Do not flare your elbows out too wide (keep them around 45 degrees)."
+                        ],
+                        "cues": [
+                            "Retract your scapula (pinch shoulder blades together).",
+                            "Drive your feet into the ground.",
+                            "Lower the bar to your mid-chest."
+                        ],
+                        "category": "push"
+                    },
+                    "comments": "test notes"
+                },
+                {
+                    "id": "f76a08ee-8d2b-4efd-92db-91f5ca17c472",
+                    "exerciseId": "pull-up",
+                    "role": "main",
+                    "sets": 3,
+                    "type": "reps",
+                    "reps": {
+                        "min": 8,
+                        "max": 12
+                    },
+                    "exercise": {
+                        "id": "pull-up",
+                        "name": "Pull Up",
+                        "equipment": "bodyweight",
+                        "muscles": {
+                            "primary": [
+                                "lats",
+                                "back"
+                            ],
+                            "secondary": [
+                                "biceps",
+                                "forearms"
+                            ]
+                        },
+                        "precautions": [
+                            "Avoid swinging or using momentum.",
+                            "Do not shrug your shoulders up to your ears."
+                        ],
+                        "cues": [
+                            "Imagine pulling your elbows down to your pockets.",
+                            "Keep your core tight.",
+                            "Full range of motion: chin over bar, full hang at bottom."
+                        ],
+                        "category": "pull"
+                    }
+                }
+            ]
+        }
+    ]
+}
