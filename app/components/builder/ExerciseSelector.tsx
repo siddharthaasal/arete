@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { Exercise, ExerciseCategory, MuscleGroup } from "@/app/types/exercise";
-import exercisesData from "@/app/data/exercises.json";
+import exercisesData from "@/app/data/exercises-updated.json";
 import { cn } from "@/lib/utils";
 import { XIcon, SearchIcon, PlusIcon } from "lucide-react";
 
