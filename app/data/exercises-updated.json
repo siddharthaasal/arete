@@ -1,0 +1,752 @@
+[
+  {
+    "id": "001",
+    "name": "Scapular Push-Ups",
+    "equipment": "Bodyweight",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Serratus Anterior",
+        "Rhomboids"
+      ],
+      "secondary": [
+        "Pectoralis Minor",
+        "Middle Trapezius",
+        "Lower Trapezius"
+      ]
+    },
+    "precautions": [],
+    "cues": [
+      "Keep elbows completely straight and locked out."
+    ]
+  },
+  {
+    "id": "002",
+    "name": "Incline Bench Press",
+    "equipment": "Dumbbells",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Pectoralis Major",
+        "Anterior Deltoids"
+      ],
+      "secondary": [
+        "Triceps"
+      ]
+    },
+    "precautions": [
+      "Do not lock elbows out at the top."
+    ],
+    "cues": [
+      "Retract and depress shoulder blades.",
+      "Drive the dumbbells up and slightly inward."
+    ]
+  },
+  {
+    "id": "003",
+    "name": "Flat Bench Press",
+    "equipment": "Barbell",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Pectoralis Major",
+        "Pectoralis Minor"
+      ],
+      "secondary": [
+        "Anterior Deltoids",
+        "Triceps"
+      ]
+    },
+    "precautions": [
+      "Do not bounce the bar off the chest.",
+      "Do not flare elbows excessively.",
+      "Do not lock elbows out at the top."
+    ],
+    "cues": [
+      "Think about bending the bar to retract and depress shoulder blades.",
+      "Keep feet flat on the floor to maintain leg drive."
+    ]
+  },
+  {
+    "id": "004",
+    "name": "Decline Push-Ups",
+    "equipment": "Bodyweight",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Pectoralis Major",
+        "Anterior Deltoids"
+      ],
+      "secondary": [
+        "Triceps",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not do it on an unstable elevated surface.",
+      "Do not let the body sag."
+    ],
+    "cues": [
+      "Keep your core and glutes tight.",
+      "Lower your chest until it's just above the floor."
+    ]
+  },
+  {
+    "id": "005",
+    "name": "Medicine Ball Chest Pass",
+    "equipment": "Medicine Ball",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Pectoralis Major",
+        "Anterior Deltoids"
+      ],
+      "secondary": [
+        "Triceps",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not do it in a conjusted space."
+    ],
+    "cues": [
+      "Load the ball close to your chest.",
+      "Explode forward using the chest and triceps.",
+      "Follow through with your arms completely."
+    ]
+  },
+  {
+    "id": "006",
+    "name": "Lu Raises",
+    "equipment": "Dumbbells/Plates",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Anterior Deltoids",
+        "Medial Deltoids"
+      ],
+      "secondary": []
+    },
+    "precautions": [
+      "Do not use heavy weights.",
+      "Do not shrug the shoulders up."
+    ],
+    "cues": [
+      "Keep a neutral grip (thumbs slightly up).",
+      "Focus on controlled movement, especially on the descent."
+    ]
+  },
+  {
+    "id": "007",
+    "name": "Close-Grip Push-Ups",
+    "equipment": "Bodyweight",
+    "category": "Push",
+    "muscles": {
+      "primary": [
+        "Triceps"
+      ],
+      "secondary": [
+        "Anterior Deltoids"
+      ]
+    },
+    "precautions": [
+      "Do not let the elbows flare out."
+    ],
+    "cues": [
+      "Keep your core tight and back flat.",
+      "Lower slowly until your chest lightly touches your thumbs."
+    ]
+  },
+  {
+    "id": "008",
+    "name": "Single-Leg RDL",
+    "equipment": "Dumbbells/Bodyweight",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Gluteus Maximus",
+        "Hamstrings",
+        "Gluteus Medius"
+      ],
+      "secondary": [
+        "Core",
+        "Erector Spinae"
+      ]
+    },
+    "precautions": [
+      "Do not use heavy weights.",
+      "Do not round the lower back."
+    ],
+    "cues": [
+      "Hinge at the hip, imagining closing a car door with the non-working leg.",
+      "Keep a firm, slight bend in the standing knee.",
+      "Focus on pushing the non-working leg straight back, not just lowering the torso."
+    ]
+  },
+  {
+    "id": "009",
+    "name": "Pull-Ups",
+    "equipment": "Bodyweight/Plates",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Latissimus Dorsi",
+        "Biceps",
+        "Brachialis"
+      ],
+      "secondary": [
+        "Rhomboids",
+        "Trapezius",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not kip."
+    ],
+    "cues": [
+      "Initiate pull with the shoulders (depress and retract).",
+      "Imagine pulling the elbows to the hips."
+    ]
+  },
+  {
+    "id": "010",
+    "name": "Conventional Deadlift",
+    "equipment": "Barbell/Dumbbells",
+    "category": "Compound",
+    "muscles": {
+      "primary": [
+        "Gluteus Maximus",
+        "Hamstrings",
+        "Erector Spinae"
+      ],
+      "secondary": [
+        "Quadriceps",
+        "Trapezius",
+        "Forearms"
+      ]
+    },
+    "precautions": [
+      "Do not round the lower back."
+    ],
+    "cues": [
+      "Push the floor away (legs).",
+      "Keep chest up and shoulders back.",
+      "Finish by squeezing the glutes, not leaning back."
+    ]
+  },
+  {
+    "id": "011",
+    "name": "Deadhang",
+    "equipment": "Bodyweight/Plates",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Forearm",
+        "Latissimus Dorsi"
+      ],
+      "secondary": []
+    },
+    "precautions": [],
+    "cues": [
+      "Fully relax the shoulders."
+    ]
+  },
+  {
+    "id": "012",
+    "name": "Lower Back Hyperextensions",
+    "equipment": "Bodyweight/Plates",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Erector Spinae",
+        "Gluteus Maximus",
+        "Hamstrings"
+      ],
+      "secondary": [
+        "Gluteus Medius"
+      ]
+    },
+    "precautions": [
+      "Do not over-extend the spine past a neutral straight line."
+    ],
+    "cues": [
+      "Squeeze the glutes at the top."
+    ]
+  },
+  {
+    "id": "013",
+    "name": "Wide-Grip Cable Rows",
+    "equipment": "",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Latissimus Dorsi",
+        "Rhomboids",
+        "Middle Trapezius"
+      ],
+      "secondary": [
+        "Biceps",
+        "Forearms"
+      ]
+    },
+    "precautions": [
+      "Do not lean back excessively.",
+      "Do not use momentum to pull the weight."
+    ],
+    "cues": [
+      "Pull elbows wide and back.",
+      "Squeeze the shoulder blades together.",
+      "Maintain an upright torso."
+    ]
+  },
+  {
+    "id": "014",
+    "name": "Lat Pulldowns",
+    "equipment": "",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Latissimus Dorsi",
+        "Biceps"
+      ],
+      "secondary": [
+        "Rhomboids",
+        "Lower Trapezius"
+      ]
+    },
+    "precautions": [
+      "Do not lean back too far."
+    ],
+    "cues": [
+      "Pull the bar down toward the upper chest.",
+      "Initiate the pull by driving the elbows down.",
+      "Maintain a slight arch in the lower back."
+    ]
+  },
+  {
+    "id": "015",
+    "name": "Smith Machine Shrugs",
+    "equipment": "",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Upper Trapezius"
+      ],
+      "secondary": [
+        "Forearms"
+      ]
+    },
+    "precautions": [
+      "Do not roll the shoulders; move straight up and down.",
+      "Do not use excessive weight that compromises range of motion."
+    ],
+    "cues": [
+      "Keep arms straight.",
+      "Shrug the shoulders straight up to the ears.",
+      "Squeeze and hold at the peak contraction."
+    ]
+  },
+  {
+    "id": "016",
+    "name": "Band Pull-Aparts",
+    "equipment": "Resistance Band",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Rear Deltoids",
+        "Rhomboids",
+        "Middle Trapezius"
+      ],
+      "secondary": [
+        "Rotator Cuff"
+      ]
+    },
+    "precautions": [
+      "Do not shrug the shoulders up."
+    ],
+    "cues": [
+      "Keep arms mostly straight and level with the floor.",
+      "Squeeze shoulder blades together forcefully."
+    ]
+  },
+  {
+    "id": "017",
+    "name": "Band Pull-Apart Hold",
+    "equipment": "Resistance Band",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Rear Deltoids",
+        "Rhomboids"
+      ],
+      "secondary": [
+        "Middle Trapezius",
+        "Rotator Cuff"
+      ]
+    },
+    "precautions": [],
+    "cues": [
+      "Retract the scapula while pulling the band apart.",
+      "Keep arms level with the floor."
+    ]
+  },
+  {
+    "id": "018",
+    "name": "External Shoulder Rotation (Elbow On Knee)",
+    "equipment": "Dumbbell",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Infraspinatus",
+        "Teres Minor"
+      ],
+      "secondary": [
+        "Posterior Deltoids"
+      ]
+    },
+    "precautions": [
+      "Do not use heavy weight.",
+      "Do not do it uncontrolled."
+    ],
+    "cues": [
+      "Keep the elbow stable on the knee.",
+      "Rotate the forearm only, moving the dumbbell up and down."
+    ]
+  },
+  {
+    "id": "019",
+    "name": "Trap Bar Deadlift Jumps",
+    "equipment": "Trap Bar",
+    "category": "Compound",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Gluteus Maximus",
+        "Hamstrings"
+      ],
+      "secondary": [
+        "Calves",
+        "Upper Trapezius"
+      ]
+    },
+    "precautions": [
+      "Do not use heavy weight.",
+      "Do not land on balls of feet."
+    ],
+    "cues": [
+      "Land on toes.",
+      "Leave the ground slightly at the peak extension.",
+      "Maintain upright torso throughout."
+    ]
+  },
+  {
+    "id": "020",
+    "name": "Trap Bar Deadlift",
+    "equipment": "Trap Bar",
+    "category": "Compound",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Gluteus Maximus",
+        "Hamstrings"
+      ],
+      "secondary": [
+        "Erector Spinae",
+        "Upper Trapezius",
+        "Forearms"
+      ]
+    },
+    "precautions": [
+      "Do not bend the lower back.",
+      "Do not make the lift jerky."
+    ],
+    "cues": [
+      "Push the floor away with the legs (quad-drive).",
+      "Keep the chest up.",
+      "Stand tall and squeeze the glutes at the top."
+    ]
+  },
+  {
+    "id": "021",
+    "name": "Incline Y-Raises",
+    "equipment": "Dumbbells",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Lower Trapezius",
+        "Serratus Anterior"
+      ],
+      "secondary": [
+        "Posterior Deltoids",
+        "Middle Trapezius"
+      ]
+    },
+    "precautions": [
+      "Do not use heavy weights.",
+      "Do not shrug the shoulders up."
+    ],
+    "cues": [
+      "Lie face down on an incline bench.",
+      "Raise arms in a 'Y' shape.",
+      "Focus on upward rotation of the scapula."
+    ]
+  },
+  {
+    "id": "022",
+    "name": "Chin-Ups",
+    "equipment": "Bodyweight/Plates",
+    "category": "Pull",
+    "muscles": {
+      "primary": [
+        "Latissimus Dorsi",
+        "Biceps",
+        "Brachialis"
+      ],
+      "secondary": [
+        "Rhomboids",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not kip.",
+      "Do not let the elbows flare out."
+    ],
+    "cues": [
+      "Use a supinated (underhand) grip.",
+      "Pull the chest toward the bar.",
+      "Focus on driving the elbows down and back."
+    ]
+  },
+  {
+    "id": "023",
+    "name": "Cossack Squats",
+    "equipment": "Bodyweight/Dumbbell/Kettlebell",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Adductors",
+        "Gluteus Maximus"
+      ],
+      "secondary": [
+        "Hamstrings",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not let the working knee collapse inward.",
+      "Do not force depth if groin mobility is limited."
+    ],
+    "cues": [
+      "Keep the non-working leg straight with toes pointed up.",
+      "Maintain a neutral spine in the squat position."
+    ]
+  },
+  {
+    "id": "024",
+    "name": "Corkscrew Squats",
+    "equipment": "Bodyweight",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Hip Flexors"
+      ],
+      "secondary": [
+        "Core",
+        "Rotator Cuff"
+      ]
+    },
+    "precautions": [
+      "Do not go deeper than comfortable hip range.",
+      "Do not rush the rotation."
+    ],
+    "cues": [
+      "Slowly rotate the knee inward at the bottom of the squat.",
+      "Keep the torso upright."
+    ]
+  },
+  {
+    "id": "025",
+    "name": "Banded Squats",
+    "equipment": "Resistance Band",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Gluteus Medius",
+        "Gluteus Maximus",
+        "Quadriceps"
+      ],
+      "secondary": [
+        "Adductors"
+      ]
+    },
+    "precautions": [
+      "Do not let the knees collapse inward.",
+      "Do not use a band so tight it forces unnatural knee tracking."
+    ],
+    "cues": [
+      "Push the knees outward against the band constantly.",
+      "Maintain full foot contact with the floor."
+    ]
+  },
+  {
+    "id": "026",
+    "name": "Spanish Squats",
+    "equipment": "Resistance Band",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Patellar Tendon"
+      ],
+      "secondary": [
+        "Gastrocnemius",
+        "Soleus",
+        "Gluteus Medius"
+      ]
+    },
+    "precautions": [
+      "Do not let the band tension ease up during the set.",
+      "Do not let the hips drop too low (keep it a quad-dominant movement)."
+    ],
+    "cues": [
+      "Keep the torso perfectly upright.",
+      "Drive knees aggressively forward past the toes (perpendicular to floor).",
+      "Squeeze quads hard at the top."
+    ]
+  },
+  {
+    "id": "027",
+    "name": "Johnson Calf Raises",
+    "equipment": "Bodyweight/Dumbbells/Plates",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Soleus"
+      ],
+      "secondary": [
+        "Gastrocnemius"
+      ]
+    },
+    "precautions": [
+      "Do not straighten the knees.",
+      "Do not use excessive weight."
+    ],
+    "cues": [
+      "Keep knees bent at 90 degrees (or slightly less).",
+      "Focus on driving the ball of the foot down.",
+      "Achieve full range of motion."
+    ]
+  },
+  {
+    "id": "028",
+    "name": "Tibialis Raises",
+    "equipment": "Bodyweight/Band",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Tibialis Anterior"
+      ],
+      "secondary": []
+    },
+    "precautions": [
+      "Do not use momentum.",
+      "Do not round the lower back."
+    ],
+    "cues": [
+      "Initiate movement by pulling toes toward the shins.",
+      "Control the descent slowly (eccentric focus)."
+    ]
+  },
+  {
+    "id": "029",
+    "name": "Heel Walk",
+    "equipment": "Bodyweight/Dumbbells",
+    "category": "",
+    "muscles": {
+      "primary": [
+        "Tibialis Anterior"
+      ],
+      "secondary": []
+    },
+    "precautions": [
+      "Do not rush the movement."
+    ],
+    "cues": [
+      "Keep knees straight.",
+      "Walk only on the heels, keeping the toes elevated."
+    ]
+  },
+  {
+    "id": "030",
+    "name": "Bent-Knee Calf Raises",
+    "equipment": "Bodyweight/Dumbbells/Plates",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Soleus"
+      ],
+      "secondary": [
+        "Gastrocnemius"
+      ]
+    },
+    "precautions": [
+      "Do not lock out knees.",
+      "Do not use excessive weight."
+    ],
+    "cues": [
+      "Keep knees bent at 90 degrees.",
+      "Focus on maximum soleus squeeze.",
+      "Maintain a slow, controlled tempo."
+    ]
+  },
+  {
+    "id": "031",
+    "name": "Standing Calf Raises",
+    "equipment": "Bodyweight/Dumbbells/Plates",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Gastrocnemius"
+      ],
+      "secondary": [
+        "Soleus"
+      ]
+    },
+    "precautions": [
+      "Do not bounce at the bottom.",
+      "Do not let the feet roll outward."
+    ],
+    "cues": [
+      "Keep legs straight.",
+      "Achieve full stretch at the bottom and full contraction at the top."
+    ]
+  },
+  {
+    "id": "032",
+    "name": "Squats",
+    "equipment": "Barbell/Dumbbell/Bodyweight/Kettlebell",
+    "category": "Legs",
+    "muscles": {
+      "primary": [
+        "Quadriceps",
+        "Gluteus Maximus"
+      ],
+      "secondary": [
+        "Hamstrings",
+        "Erector Spinae",
+        "Core"
+      ]
+    },
+    "precautions": [
+      "Do not round the lower back.",
+      "Do not let the knees cave inward."
+    ],
+    "cues": [
+      "Initiate the movement by pushing the hips back.",
+      "Drive the knees out over the toes.",
+      "Maintain an upright torso and tight core."
+    ]
+  }
+]

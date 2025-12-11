@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { Exercise, ExerciseCategory, MuscleGroup } from "./types/exercise";
-import exercisesData from "./data/exercises.json";
+import exercisesData from "./data/exercises-updated.json";
 import { ExerciseModal } from "./components/ExerciseModal";
 import { PronounceMyName } from "./components/PronounceMyName";
 import Link from "next/link";
